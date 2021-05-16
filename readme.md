@@ -8,3 +8,5 @@
 `http://localhost:7071/api/getNotes/`
 
 `http://localhost:7071/api/getNote?id=5ed43a30a5193402a6b11da0`
+
+`http://localhost:7071/api/createNote`
