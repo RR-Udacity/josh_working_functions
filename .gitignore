@@ -1,0 +1,7 @@
+*.code-workspace
+__pypackages__
+.pdm.toml
+.venv
+.vscode
+*.pyc
+*.dat
