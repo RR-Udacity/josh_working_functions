@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "azure-functions~=1.7",
     "pymongo~=3.11",
+    "sendgrid~=6.7",
 ]
 requires-python = ">=3.9"
 dynamic = ["classifiers"]

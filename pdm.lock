@@ -10,9 +10,31 @@ sections = ["default"]
 version = "3.11.4"
 summary = "Python driver for MongoDB <http://www.mongodb.org>"
 
+[[package]]
+name = "python-http-client"
+sections = ["default"]
+version = "3.3.2"
+summary = "HTTP REST client, simplified for Python"
+
+[[package]]
+name = "sendgrid"
+sections = ["default"]
+version = "6.7.0"
+summary = "Twilio SendGrid library for Python"
+dependencies = [
+    "python-http-client>=3.2.1",
+    "starkbank-ecdsa>=1.0.0",
+]
+
+[[package]]
+name = "starkbank-ecdsa"
+sections = ["default"]
+version = "1.1.0"
+summary = "A lightweight and fast pure python ECDSA library"
+
 [metadata]
 lock_version = "2"
-content_hash = "sha256:61bacdac8374b98259d815d1d0fd4a11b9d471234a652439e5e53c9c8611f1d9"
+content_hash = "sha256:7906abd21b2bb543c9b1d2c3dd4d09834dd6f2858590eaba376cb2f237ed5012"
 
 [metadata.files]
 "azure-functions 1.7.0" = [
@@ -83,4 +105,14 @@ content_hash = "sha256:61bacdac8374b98259d815d1d0fd4a11b9d471234a652439e5e53c9c8
     {file = "pymongo-3.11.4-cp39-cp39-win32.whl", hash = "sha256:5e606846c049ed40940524057bfdf1105af6066688c0e6a1a3ce2038589bae70"},
     {file = "pymongo-3.11.4-cp39-cp39-win_amd64.whl", hash = "sha256:3491c7de09e44eded16824cb58cf9b5cc1dc6f066a0bb7aa69929d02aa53b828"},
     {file = "pymongo-3.11.4.tar.gz", hash = "sha256:539d4cb1b16b57026999c53e5aab857fe706e70ae5310cc8c232479923f932e6"},
+]
+"python-http-client 3.3.2" = [
+    {file = "python_http_client-3.3.2.tar.gz", hash = "sha256:67e6a7bea19b03e14dc971480d3531b80becfc203d6c69478561bf7844d52661"},
+]
+"sendgrid 6.7.0" = [
+    {file = "sendgrid-6.7.0-py3-none-any.whl", hash = "sha256:273bdc0abec649bf6319df7b6267980f79e53ab64e92906d65eea6d4330d00b4"},
+    {file = "sendgrid-6.7.0.tar.gz", hash = "sha256:74b0dcf9a79188948f61f456bd1bf67ffa676a5d388aba1c76bff516566d7084"},
+]
+"starkbank-ecdsa 1.1.0" = [
+    {file = "starkbank-ecdsa-1.1.0.tar.gz", hash = "sha256:423f81bb55c896a3c85ee98ac7da98826721eaee918f5c0c1dfff99e1972da0c"},
 ]
